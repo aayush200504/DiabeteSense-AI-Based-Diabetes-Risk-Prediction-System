@@ -1,0 +1,322 @@
+{
+  "papers_columns": [
+    "Sr no.",
+    "Title of Papers",
+    "Authors",
+    "Algorithm / Technology / Methodologies",
+    "Gaps / Future Scope",
+    "Type of Research Paper",
+    "Link to Papers (URL)",
+    "Type of Dataset"
+  ],
+  "csv_columns": [
+    "SEQN",
+    "age_group",
+    "RIDAGEYR",
+    "RIAGENDR",
+    "PAQ605",
+    "BMXBMI",
+    "LBXGLU",
+    "DIQ010",
+    "LBXGLT",
+    "LBXIN"
+  ],
+  "csv_sample": [
+    {
+      "SEQN": 73564,
+      "age_group": "Adult",
+      "RIDAGEYR": 61,
+      "RIAGENDR": 2,
+      "PAQ605": 2,
+      "BMXBMI": 35.7,
+      "LBXGLU": 110,
+      "DIQ010": 2,
+      "LBXGLT": 150,
+      "LBXIN": 14.91
+    },
+    {
+      "SEQN": 73568,
+      "age_group": "Adult",
+      "RIDAGEYR": 26,
+      "RIAGENDR": 2,
+      "PAQ605": 2,
+      "BMXBMI": 20.3,
+      "LBXGLU": 89,
+      "DIQ010": 2,
+      "LBXGLT": 80,
+      "LBXIN": 3.85
+    }
+  ],
+  "papers": [
+    {
+      "sno": 1,
+      "title": "Predicting Youth Diabetes Risk Using NHANES Data and Machine Learning",
+      "author": "Nita Vangeepuram et al.",
+      "year": "Random Forest, Logistic Regression",
+      "journal": "Needs larger multi-year dataset",
+      "method": "Journal",
+      "finding": "https://www.nature.com/articles/s41598-021-90406-0"
+    },
+    {
+      "sno": 2,
+      "title": "Machine Learning for Diabetes Prediction Using Health Survey Data",
+      "author": "Jin-Hoon Kim et al.",
+      "year": "SVM, Random Forest",
+      "journal": "Model explainability needed",
+      "method": "Journal",
+      "finding": "https://www.mdpi.com/1660-4601/19/22/15027"
+    },
+    {
+      "sno": 3,
+      "title": "Predictive Modeling of Diabetes Risk Using Health Indicators",
+      "author": "Zhi Qiao et al.",
+      "year": "Gradient Boosting, Logistic Regression",
+      "journal": "Better feature selection required",
+      "method": "Journal",
+      "finding": "Predictive model for early detection of type 2 diabetes using patients' clinical symptoms, demographic features, and knowledge of diabetes - PMC"
+    },
+    {
+      "sno": 4,
+      "title": "Prediction of Diabetes Mellitus with Machine Learning Techniques",
+      "author": "Tong Hau Lee et al.",
+      "year": "Decision Tree, Random Forest",
+      "journal": "Needs validation on larger populations",
+      "method": "Journal",
+      "finding": "Frontiers | Predicting Diabetes Mellitus With Machine Learning Techniques"
+    },
+    {
+      "sno": 5,
+      "title": "Enhanced Diabetes Risk Prediction Using Ensemble Learning",
+      "author": "Various Authors",
+      "year": "Ensemble Learning",
+      "journal": "Needs more demographic variables",
+      "method": "Conference",
+      "finding": "Enhanced Diabetes Risk Prediction Using Ensemble Learning on Real-World Nhanes Clinical Data"
+    },
+    {
+      "sno": 6,
+      "title": " Techniques of ML to Identify Risk Factors for Diabetes",
+      "author": "Various Authors",
+      "year": "Logistic Regression, SVM",
+      "journal": "Needs longitudinal dataset",
+      "method": "Preprint",
+      "finding": "https://arxiv.org/abs/2105.09379"
+    },
+    {
+      "sno": 7,
+      "title": "Deep Learning Framework for Predicting Diabetes Risk",
+      "author": "Various Authors",
+      "year": "Deep Neural Network",
+      "journal": "High computational cost",
+      "method": "Preprint",
+      "finding": "https://arxiv.org/abs/2403.19752"
+    },
+    {
+      "sno": 8,
+      "title": "AI-Driven Prediction of Insulin Resistance",
+      "author": "Weihao Gao et al.",
+      "year": "Machine Learning",
+      "journal": "More biomarker data needed",
+      "method": "Journal",
+      "finding": "https://arxiv.org/abs/2503.05119"
+    },
+    {
+      "sno": 9,
+      "title": "Machine Learning Based Prediction of Cardiovascular Risk in Diabetic Patients",
+      "author": "Various Authors",
+      "year": "Random Forest",
+      "journal": "Future multimodal analysis needed",
+      "method": "Journal",
+      "finding": "[2511.04971] Risk Prediction of Cardiovascular Disease for Diabetic Patients with Machine Learning and Deep Learning Techniques"
+    },
+    {
+      "sno": 10,
+      "title": "Machine Learning Model for Predicting Obesity Risk in Diabetic Patients",
+      "author": "Various Authors",
+      "year": "SVM, Logistic Regression",
+      "journal": "Needs longitudinal data",
+      "method": "Research",
+      "finding": "Frontiers | A machine learning model for predicting obesity risk in patients with diabetes mellitus: analysis of NHANES 2007\u20132018"
+    },
+    {
+      "sno": 11,
+      "title": "Machine Learning Approaches for Predicting Diabetes Risk",
+      "author": "Zhi Qiao, Xiaoli Wang",
+      "year": "Gradient Boosting, Logistic Regression",
+      "journal": "Deep learning models for improved accuracy",
+      "method": "Journal",
+      "finding": "(PDF) Machine Learning Approaches for Diabetes Risk Prediction: A Comparative Analysis Using Ensemble Methods"
+    },
+    {
+      "sno": 12,
+      "title": "A Machine Learning Classifier-Based Approach for Diabetes Mellitus Risk Prediction",
+      "author": "Jai Kumar B., Mohanasundaram",
+      "year": "SVM, Gradient Boosting, Random Forest",
+      "journal": "Requires real-time clinical validation",
+      "method": "Review",
+      "finding": "https://pubmed.ncbi.nlm.nih.gov/39389092/"
+    },
+    {
+      "sno": 13,
+      "title": "Classification and Prediction of Diabetes Disease Using Machine Learning Paradigm",
+      "author": "Md. Maniruzzaman et al.",
+      "year": "Random Forest, SVM, ANN",
+      "journal": "larger datasets",
+      "method": "Journal",
+      "finding": "https://pubmed.ncbi.nlm.nih.gov/31949894/"
+    },
+    {
+      "sno": 14,
+      "title": "Prediction of Diabetes Mellitus Using Machine Learning Techniques",
+      "author": "Tong Hau Lee et al.",
+      "year": "Decision Tree, Random Forest",
+      "journal": "Requires validation on larger population",
+      "method": "Journal",
+      "finding": "https://journals.mmupress.com/index.php/jetap/article/view/974"
+    },
+    {
+      "sno": 15,
+      "title": "Machine Learning Techniques to Identify Risk Factors for Diabetes",
+      "author": "Avraham Adler et al.",
+      "year": "Elastic Net, SVM",
+      "journal": "Longitudinal data Required",
+      "method": "Preprint",
+      "finding": "https://arxiv.org/abs/2105.09379"
+    },
+    {
+      "sno": 16,
+      "title": "Deep Learning Framework for Diabetes Risk Prediction",
+      "author": "Matabuena Marcos et al.",
+      "year": "Neural Networks",
+      "journal": "High computational cost",
+      "method": "Review",
+      "finding": "https://arxiv.org/abs/2403.19752"
+    },
+    {
+      "sno": 17,
+      "title": "HealthEdge: Machine Learning Framework for Type-2 Diabetes Prediction",
+      "author": "Alain Hennebelle et al.",
+      "year": "Random Forest, Logistic Regression",
+      "journal": "Need Real-world deployment",
+      "method": "Preprint",
+      "finding": "https://arxiv.org/abs/2301.10450"
+    },
+    {
+      "sno": 18,
+      "title": " (EHR) System Development for Study on EHR Data-based Early Prediction Diabetes Using ML Algorithms",
+      "author": "Ioannis Kavakiotis et al.",
+      "year": "SVM, Neural Networks",
+      "journal": "Needs clinical validation",
+      "method": "Journal",
+      "finding": "https://www.sciencedirect.com/org/science/article/pii/S1875036223000158"
+    },
+    {
+      "sno": 19,
+      "title": "Machine learning for characterizing risk of type 2 diabetes mellitus in a rural Chinese population: the Henan Rural Cohort Study",
+      "author": "Liying Zhang, Yikang Wang, Zhenfei Wang et al.",
+      "year": "Random Forest, Gradient Boosting, Logistic Regression",
+      "journal": "Model validation needed in other populations",
+      "method": "Journal",
+      "finding": "https://www.nature.com/articles/s41598-020-61123-x"
+    },
+    {
+      "sno": 20,
+      "title": "Predicting Type-2 Diabetes Using Machine Learning and Feature Selection Techniques",
+      "author": "Md. Niaz Imtiaz, Md. Ahsanul Haque",
+      "year": "SVM, Decision Tree, Feature Selection Methods",
+      "journal": "Needs larger dataset and real-time clinical testing",
+      "method": "Conference / Journal",
+      "finding": "https://www.mdpi.com/2075-4418/15/20/2622"
+    },
+    {
+      "sno": 21,
+      "title": "Predicting Diabetes in Patients with Metabolic Syndrome Using Machine-Learning Model Based on Multiple Years\u2019 Data",
+      "author": "Jing Li, Zheng Xu, Tengda Xu, Songbai Lin",
+      "year": "Random Forest, Gradient Boosting",
+      "journal": "Needs integration with hospital EHR systems",
+      "method": "Journal",
+      "finding": "https://www.dovepress.com/predicting-diabetes-in-patients-with-metabolic-syndrome-using-machine--peer-reviewed-fulltext-article-DMSO"
+    },
+    {
+      "sno": 22,
+      "title": "Analysis of Various Data Mining Techniques to Predict Diabetes Mellitus",
+      "author": "D. Devi",
+      "year": "Naive Bayes, Decision Tree, KNN",
+      "journal": "Accuracy improvement using hybrid models",
+      "method": "Conference / Journal",
+      "finding": "https://www.sciencedirect.com/science/article/pii/S2665917422002392"
+    },
+    {
+      "sno": 23,
+      "title": "Diabetes Mellitus Disease Prediction and Type Classification Involving Predictive Modeling Using Machine Learning Techniques and Classifiers",
+      "author": "B. Ahamed, Meenakshi S. Arya, S. K. B. Sangeetha, Nancy V. Auxilia Osvin",
+      "year": "Random Forest, SVM, ANN",
+      "journal": "Requires larger patient datasets for validation",
+      "method": "Journal",
+      "finding": "https://onlinelibrary.wiley.com/doi/10.1155/2022/7899364?msockid=3afda913ee3c6836015cbc52efc469d1"
+    },
+    {
+      "sno": 24,
+      "title": "Early Prediction of Diabetes Using Machine Learning Techniques",
+      "author": "S. Sisodia, S. Sisodia",
+      "year": "Decision Tree, SVM, Naive Bayes",
+      "journal": "Needs larger real-world datasets",
+      "method": "Journal",
+      "finding": "https://link.springer.com/chapter/10.1007/978-981-96-6681-2_23"
+    },
+    {
+      "sno": 25,
+      "title": "A Comparative Study of Machine Learning Algorithms for Diabetes Prediction",
+      "author": "A. Kumari, R. Chitra",
+      "year": "Logistic Regression, Random Forest, SVM",
+      "journal": "Feature engineering improvements needed",
+      "method": "Journal",
+      "finding": "https://ieeexplore.ieee.org/document/11106846"
+    },
+    {
+      "sno": 26,
+      "title": "Prediction of Diabetes Disease Using Data Mining Techniques",
+      "author": "S. Perveen, M. Shahbaz, A. Guergachi",
+      "year": "Random Forest, AdaBoost",
+      "journal": "Requires longitudinal patient monitoring",
+      "method": "Journal",
+      "finding": "https://www.jetir.org/papers/JETIR2306998.pdf"
+    },
+    {
+      "sno": 27,
+      "title": "An Intelligent Diabetes Prediction System Using Machine Learning",
+      "author": "K. Polat, S. G\u00fcne\u015f",
+      "year": "Artificial Neural Network, PCA",
+      "journal": "Needs testing with multi-hospital datasets",
+      "method": "Journal",
+      "finding": "https://www.jetir.org/view?paper=JETIR2603064"
+    },
+    {
+      "sno": 28,
+      "title": "Diabetes Prediction Using Machine Learning Algorithms",
+      "author": "N. Sarwar, M. Sharma",
+      "year": "Random Forest, KNN, Logistic Regression",
+      "journal": "Limited demographic diversity in dataset",
+      "method": "Conference",
+      "finding": "https://www.sciencedirect.com/science/article/pii/S1877050920300557"
+    },
+    {
+      "sno": 29,
+      "title": "Application of Machine Learning Techniques in Predicting Diabetes Risk",
+      "author": "A. Dinh, V. Miertschin, A. Young",
+      "year": "Logistic Regression, Gradient Boosting",
+      "journal": "Model interpretability needs improvement",
+      "method": "Research",
+      "finding": "https://annals-csis.org/Volume_38/drp/pdf/43.pdf"
+    },
+    {
+      "sno": 30,
+      "title": "Predictive Analytics for Diabetes Using Machine Learning Approaches",
+      "author": "M. K. Hasan, M. A. Alam",
+      "year": "Random Forest, Neural Networks",
+      "journal": "Needs integration with EHR systems",
+      "method": "Journal",
+      "finding": "https://dl.acm.org/doi/10.1145/3745812.3745842"
+    }
+  ]
+}
