@@ -1,0 +1,70 @@
+{
+  "Logistic Regression": {
+    "accuracy": 99.95,
+    "precision": 100.0,
+    "recall": 99.72,
+    "f1_score": 99.86,
+    "auc_roc": 1.0,
+    "confusion_matrix": [
+      [
+        1829,
+        0
+      ],
+      [
+        1,
+        360
+      ]
+    ]
+  },
+  "Decision Tree": {
+    "accuracy": 100.0,
+    "precision": 100.0,
+    "recall": 100.0,
+    "f1_score": 100.0,
+    "auc_roc": 1.0,
+    "confusion_matrix": [
+      [
+        1829,
+        0
+      ],
+      [
+        0,
+        361
+      ]
+    ]
+  },
+  "Random Forest": {
+    "accuracy": 100.0,
+    "precision": 100.0,
+    "recall": 100.0,
+    "f1_score": 100.0,
+    "auc_roc": 1.0,
+    "confusion_matrix": [
+      [
+        1829,
+        0
+      ],
+      [
+        0,
+        361
+      ]
+    ]
+  },
+  "SVM": {
+    "accuracy": 99.95,
+    "precision": 100.0,
+    "recall": 99.72,
+    "f1_score": 99.86,
+    "auc_roc": 1.0,
+    "confusion_matrix": [
+      [
+        1829,
+        0
+      ],
+      [
+        1,
+        360
+      ]
+    ]
+  }
+}
